@@ -701,3 +701,51 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+#hello {
+	background-color: black;
+	padding: 40px 60px;
+}
+#hello img {
+	margin-left: -1em;
+	margin-top: 0.2em;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.bg {
+    display: block;
+    margin: 0 auto;
+	width: 120%;
+	opacity: 0.2342;
+}
+.white{
+	background-color: rgba(255,255,255,0.4);
+	display: block;
+	font-size: 32pt;
+    width: 900px;
+    height: 700px;
+    padding: 15px 25px;
+
+    border-radius: 10px;
+    box-shadow: 0 2px 16px 8px rgba(255, 255, 255, 0.4);
+	
+}
+
+.vid {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
