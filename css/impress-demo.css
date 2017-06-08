@@ -288,16 +288,16 @@ a:focus {
     Let's move to 'big thoughts' with centered text and custom font sizes.
 */
 #big {
-    width: 600px;
+    width: 700px;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1;
 }
 
 #big b {
     display: block;
-    font-size: 250px;
-    line-height: 250px;
+    font-size: 150px;
+    line-height: 9s0px;
 }
 
 #big .thoughts {
@@ -309,7 +309,7 @@ a:focus {
     'Tiny ideas' just need some tiny styling.
 */
 #tiny {
-    width: 500px;
+    width: 900px;
     text-align: center;
 }
 
